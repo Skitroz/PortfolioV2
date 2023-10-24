@@ -1,5 +1,5 @@
 <header class="bg-black text-white">
-    <menu class="p-6">
+    <menu class="p-6 fixed top-0 left-0 right-0 bg-black">
         <ul class="absolute top-6 left-6 flex gap-4 font-light">
             <li><a href=""><img src="{{ asset('images/logo-m.png') }}" alt="Logo M de Mathéo BATELIER" class="w-10"></a></li>
             <span>|</span>
@@ -16,7 +16,7 @@
             <button><a href="#" class="rounded-full py-2 px-4 bg-blue-600">{{$boutonHeader}}</a></button>
         </ul>
     </menu>
-    <h1 class="text-center text-5xl mt-24">{{$titreH1}}</h1>
+    <h1 class="text-center text-5xl pt-[140px]">{{$titreH1}}</h1>
     <h3 class="mt-4 text-xl text-center font-light">{!! $titreH3 !!}</h3>
     <div class="flex justify-center">
         <button class="mt-8"><a href="#" class="rounded-full py-2 px-4 bg-blue-600">Contactez-moi</a></button>

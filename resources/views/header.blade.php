@@ -19,13 +19,13 @@
     <h1 class="text-center text-5xl pt-[140px]">{{$titreH1}}</h1>
     <h3 class="mt-4 text-xl text-center font-light">{!! $titreH3 !!}</h3>
     <div class="flex justify-center">
-        <button class="mt-8"><a href="#" class="rounded-full py-2 px-4 bg-blue-600">Contactez-moi</a></button>
+        <button class="mt-8"><a href="#" class="rounded-full py-2 px-4 bg-blue-600">{{$boutonContact}}</a></button>
     </div>
     <div class="flex justify-between mx-24 items-center mt-24 mb-10">
         <h2 class="text-2xl font-semibold">{{$titreH2}}</h2>
         <a href="#" class="text-lg underline">{{$lienProjet}}</a>
     </div>
-    <div class="flex items-center justify-center pb-[150px]">
+    <div class="flex items-center justify-center pb-24">
         <div class="flex justify-between mx-24 items-center">
             <div class="border-[1px] w-[350px] p-6 rounded-lg">
                 <div class="flex justify-between items-center">

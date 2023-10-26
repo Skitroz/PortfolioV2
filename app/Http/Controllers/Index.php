@@ -14,12 +14,13 @@ class Index extends Controller
         $menuHeader1 = "Projets";
         $menuHeader2 = "Services";
         $menuHeader3 = "Blog";
+        $boutonHeader = "Contact";
 
         // Header Section
-        $boutonHeader = "Contact";
         $titreH1 = "Mathéo BATELIER";
         $titreH3 = "Actuellement en <span class='text-gray-300'>2ème année d'étude</span><br>de développement web à la Normandie Web School";
-        
+        $boutonContact = "Contact";
+
         // Header Main
         $titreH2 = "Mes projets web";
         $lienProjet = "Voir tous";
@@ -44,6 +45,9 @@ class Index extends Controller
             $lienAccesProjet3 = "En savoir plus";
             $descriptionProjet3 = "Site réalisé pour une entrerpise proposant des aménagements professionnels.";
 
+        // Main
+        $titreMain = "Mes compétences";
+
         return view('index', [
             'titrePage' => $titrePage,
             'emailHeader' => $emailHeader,
@@ -51,6 +55,7 @@ class Index extends Controller
             'menuHeader2' => $menuHeader2,
             'menuHeader3' => $menuHeader3,
             'boutonHeader' => $boutonHeader,
+            'boutonContact' => $boutonContact,
             'titreH1' => $titreH1,
             'titreH2' => $titreH2,
             'titreH3' => $titreH3,
@@ -70,6 +75,8 @@ class Index extends Controller
             'titreProjet3' => $titreProjet3,
             'lienAccesProjet3' => $lienAccesProjet3,
             'descriptionProjet3' => $descriptionProjet3,
+            // Main
+            "titreMain" => $titreMain,
         ]);
     }
 }

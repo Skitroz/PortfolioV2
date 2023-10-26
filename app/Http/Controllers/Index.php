@@ -47,6 +47,25 @@ class Index extends Controller
 
         // Main
         $titreMain = "Mes compétences";
+            // Compétence 1
+            $titreCompetence1 = "BACK-END";
+            $textCompetence1_1 = "PHP";
+            $textCompetence1_2 = "SQL";
+            // Compétence 2
+            $titreCompetence2 = "FRONT-END";
+            $textCompetence2_1 = "HTML";
+            $textCompetence2_2 = "CSS";
+            // Compétence 3
+            $titreCompetence3 = "FRAMEWORKS";
+            $textCompetence3_1 = "LARAVEL";
+            $textCompetence3_2 = "TAILWIND CSS";
+            $textCompetence3_3 = "REACT.JS";
+            $textCompetence3_4 = "NEXT.JS";
+            // Compétence 4
+            $titreCompetence4 = "DIVERS";
+            $textCompetence4_1 = "WINDOWS";
+            $textCompetence4_2 = "LINUX";
+            $textCompetence4_3 = "WORDPRESS";
 
         return view('index', [
             'titrePage' => $titrePage,
@@ -77,6 +96,25 @@ class Index extends Controller
             'descriptionProjet3' => $descriptionProjet3,
             // Main
             "titreMain" => $titreMain,
+                // Coméptence 1
+                "titreCompetence1" => $titreCompetence1,
+                "textCompetence1_1" => $textCompetence1_1,
+                "textCompetence1_2" => $textCompetence1_2,
+                // Compétence 2
+                "titreCompetence2" => $titreCompetence2,
+                "textCompetence2_1" => $textCompetence2_1,
+                "textCompetence2_2"=> $textCompetence2_2,
+                // Compétence 3
+                "titreCompetence3" => $titreCompetence3,
+                "textCompetence3_1"=> $textCompetence3_1,
+                "textCompetence3_2"=> $textCompetence3_2,
+                "textCompetence3_3"=> $textCompetence3_3,
+                "textCompetence3_4"=> $textCompetence3_4,
+                // Compétence 4
+                "titreCompetence4" => $titreCompetence4,
+                "textCompetence4_1" => $textCompetence4_1,
+                "textCompetence4_2"=> $textCompetence4_2,
+                "textCompetence4_3"=> $textCompetence4_3,
         ]);
     }
 }

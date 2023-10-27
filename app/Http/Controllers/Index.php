@@ -67,6 +67,12 @@ class Index extends Controller
             $textCompetence4_2 = "LINUX";
             $textCompetence4_3 = "WORDPRESS";
 
+        // Section portfolio
+        $titreSectionPortfolio = "Portfolio";
+
+        // Section contact
+        $titreContact = "Contact";
+
         return view('index', [
             'titrePage' => $titrePage,
             'emailHeader' => $emailHeader,
@@ -115,6 +121,10 @@ class Index extends Controller
                 "textCompetence4_1" => $textCompetence4_1,
                 "textCompetence4_2"=> $textCompetence4_2,
                 "textCompetence4_3"=> $textCompetence4_3,
+            // Section portfolio
+            "titreSectionPortfolio" => $titreSectionPortfolio,
+            // Section contact
+            "titreContact" => $titreContact,
         ]);
     }
 }
